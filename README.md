@@ -1,2 +1,2 @@
 # react-angular-stock-tracker
-This is a project to demonstrate both React and Angular skill set implementing the same thing...
+This is a project to demonstrate both React and Angular implementing the same app, and features
