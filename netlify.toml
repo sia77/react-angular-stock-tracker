@@ -4,10 +4,10 @@
 
 [[redirects]]
   from = "/react"
-  to = "/react-app/build/index.html"
+  to = "/react-stock-tracker/build/index.html"
   status = 200
 
 [[redirects]]
   from = "/angular"
-  to = "/angular-app/dist/angular-app/index.html"
+  to = "/angular-stock-tracker/dist/angular-stock-tracker/index.html"
   status = 200
