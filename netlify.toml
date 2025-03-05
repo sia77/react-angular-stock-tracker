@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "public"  # Serves index.html as the main landing page
+
+[[redirects]]
+  from = "/react"
+  to = "/react-app/build/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/angular"
+  to = "/angular-app/dist/angular-app/index.html"
+  status = 200

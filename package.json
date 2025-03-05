@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "install-all": "npm install --prefix react-app && npm install --prefix angular-app",
+        "build": "npm run build:react && npm run build:angular",
+        "build:react": "npm run build --prefix react-app",
+        "build:angular": "npm run build --prefix angular-app",
+        "start": "concurrently \"npm start --prefix react-app\" \"npm start --prefix angular-app\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.0",
+        "vite": "^6.2.0"
+    }
+}
